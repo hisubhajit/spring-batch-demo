@@ -1,1 +1,9 @@
-
+spring:
+  h2:
+    console:
+      enabled: true
+  batch:
+    job:
+      enabled: false
+  datasource:
+    url: jdbc:h2:mem:testdb
